@@ -1,0 +1,125 @@
+.todo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.alineacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 50rem;
+}
+.nombre{
+    width: 50rem;
+    color: white;
+    background-color: #2a80b9;
+    background-image: linear-gradient(90deg, #2a80b9 0%, #c13929 30%, #f39c11 66%, #17a086 100%);
+    font-weight: 900;
+    font-size: 5rem;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.galileo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.u{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.carrera, .horario, .plan, .ubicacion{
+    width: 12.5rem;
+    height: auto;
+
+}
+.nombre-carrera, .horario-carrera, .plan-carrera, .ubicacion-carrera{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 900;
+}
+.nombre-carrera{
+    width: auto;
+    height: 7rem;
+    background-color: #17a086;
+    font-size: 1.5rem;
+}
+.info-carrera{
+    border: 1px solid #17a086;
+    height: 17rem;
+    font-size: 1.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #17a086;
+    font-weight: bold;
+}
+.horario-carrera{
+    width: auto;
+    height: 7rem;
+    background-color: #F39C11;
+    font-size: 1.5rem;
+}
+.info-horario{
+    border: 1px solid #F39C11;
+    height: 17rem;
+}
+.plan-carrera{
+    width: auto;
+    height: 7rem;
+    background-color: #C13929;
+    font-size: 1.5rem;
+}
+.info-plan{
+    border: 1px solid #C13929;
+    height: 17rem;
+    font-size: 2rem;
+    color: #C13929;
+    font-weight: 900;
+
+
+}
+.ubicacion-carrera{
+    width: auto;
+    height: 7rem;
+    background-color: #2A80B9;
+    font-size: 1.3rem;
+}
+.info-ubicacion{
+    border: 1px solid #2A80B9;
+    height: 17rem;
+
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 0.5rem;
+}
+.info-ubicacion p{
+    font-size: 1.2rem;
+    color: #2A80B9;
+    font-weight: 900;
+}
+.caja-enlace{
+    height: 1rem;
+}
+.enlace{
+    color: white;
+    font-size: 1.4rem;
+    text-decoration: none;
+    background-color: #2A80B9;
+    padding: 0.9rem;
+    border-radius: 1rem 0rem;
+}
